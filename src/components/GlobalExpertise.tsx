@@ -30,7 +30,7 @@ export const GlobalExpertise: React.FC = () => {
           <div className="lg:col-span-7">
             <div className="overflow-hidden bg-neutral-100">
               <img
-                src="/assets/changegi/skyline.jpg"
+                src={`${import.meta.env.BASE_URL}assets/changegi/skyline.jpg`}
                 alt="Waterfront skyline at sunset"
                 className="w-full h-[520px] sm:h-[680px] lg:h-[760px] object-cover object-center"
                 referrerPolicy="no-referrer"

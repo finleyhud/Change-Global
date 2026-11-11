@@ -11,7 +11,7 @@ export const Hero: React.FC<HeroProps> = ({ onWhatWeDoClick }) => {
         {/* Original Maritime Container Port Photograph */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/assets/changegi/hero.png"
+            src={`${import.meta.env.BASE_URL}assets/changegi/hero.png`}
             alt="Container ship and maritime port cranes"
             className="w-full h-full object-cover object-center"
             referrerPolicy="no-referrer"

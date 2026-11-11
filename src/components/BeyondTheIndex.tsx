@@ -9,7 +9,7 @@ export const BeyondTheIndex: React.FC = () => {
           <div className="lg:col-span-6 order-2 lg:order-1">
             <div className="overflow-hidden bg-neutral-100">
               <img
-                src="/assets/changegi/wind_turbines.png"
+                src={`${import.meta.env.BASE_URL}assets/changegi/wind_turbines.png`}
                 alt="Wind turbines overlooking a developing community"
                 className="w-full h-[520px] sm:h-[680px] lg:h-[760px] object-cover object-center"
                 referrerPolicy="no-referrer"
