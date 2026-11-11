@@ -1,0 +1,6 @@
+{
+  "name": "CHANGE Global Investment - Institutional Asset Management",
+  "description": "Active emerging and frontier markets equity asset management. Uncovering structural pricing inefficiencies through on-the-ground cultural fluency.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
